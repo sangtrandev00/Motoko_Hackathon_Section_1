@@ -54,6 +54,7 @@ actor {
       return false;
     }
   };
+  
   // Challenge 7
   let array = [1,2,3,4];
   public func sum_of_array () :async Nat {
@@ -122,7 +123,5 @@ actor {
   return Array.freeze(array_mutable);
 
   };
-
-
 
 };
